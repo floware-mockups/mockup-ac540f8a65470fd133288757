@@ -1,0 +1,243 @@
+{
+  "title": "Registro presenze e attività",
+  "description": "Prototipo per registrare entrate, uscite e attività svolte durante le sessioni di un laboratorio didattico.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Quadro sintetico delle presenze e delle attività del laboratorio.",
+      "metrics": [
+        {
+          "label": "Sessioni registrate",
+          "value": "12"
+        },
+        {
+          "label": "Presenze odierne",
+          "value": "8"
+        },
+        {
+          "label": "Uscite registrate",
+          "value": "6"
+        },
+        {
+          "label": "Attività svolte",
+          "value": "15"
+        }
+      ],
+      "columns": [
+        "Sessione",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo — Argilla",
+          "Nubi",
+          "09:05",
+          "10:30",
+          "Forme a spirale",
+          "Conclusa"
+        ],
+        [
+          "Vela — Colori",
+          "Lumo",
+          "09:10",
+          "—",
+          "Campiture sovrapposte",
+          "In corso"
+        ],
+        [
+          "Nubi — Carta",
+          "Vela",
+          "09:15",
+          "10:20",
+          "Pieghe modulari",
+          "Conclusa"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "presenze",
+      "title": "Registro presenze",
+      "description": "Consulta e filtra gli accessi alle sessioni. Usa il modulo per aggiungere una registrazione.",
+      "metrics": [
+        {
+          "label": "Registrazioni",
+          "value": "8"
+        },
+        {
+          "label": "In corso",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Sessione",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo — Argilla",
+          "Nubi",
+          "09:05",
+          "10:30",
+          "Forme a spirale",
+          "Conclusa"
+        ],
+        [
+          "Vela — Colori",
+          "Lumo",
+          "09:10",
+          "—",
+          "Campiture sovrapposte",
+          "In corso"
+        ],
+        [
+          "Nubi — Carta",
+          "Vela",
+          "09:15",
+          "10:20",
+          "Pieghe modulari",
+          "Conclusa"
+        ],
+        [
+          "Vela — Tessitura",
+          "Riva",
+          "09:20",
+          "10:45",
+          "Trame a contrasto",
+          "Conclusa"
+        ],
+        [
+          "Lumo — Carta",
+          "Sole",
+          "09:25",
+          "—",
+          "Maschere geometriche",
+          "In corso"
+        ],
+        [
+          "Nubi — Argilla",
+          "Marea",
+          "09:30",
+          "10:50",
+          "Impronte in rilievo",
+          "Conclusa"
+        ],
+        [
+          "Vela — Colori",
+          "Quercia",
+          "09:35",
+          "10:55",
+          "Toni complementari",
+          "Conclusa"
+        ],
+        [
+          "Lumo — Tessitura",
+          "Bruma",
+          "09:40",
+          "11:00",
+          "Intreccio semplice",
+          "Conclusa"
+        ]
+      ],
+      "form": [
+        "Sessione",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ]
+    },
+    {
+      "id": "sessioni",
+      "title": "Sessioni e attività",
+      "description": "Rivedi le attività programmate e annota le attività svolte, con orari e stato della sessione.",
+      "metrics": [
+        {
+          "label": "Sessioni disponibili",
+          "value": "6"
+        },
+        {
+          "label": "Attività completate",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Sessione",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo — Argilla",
+          "Nubi",
+          "09:05",
+          "10:30",
+          "Forme a spirale",
+          "Conclusa"
+        ],
+        [
+          "Vela — Colori",
+          "Lumo",
+          "09:10",
+          "—",
+          "Campiture sovrapposte",
+          "In corso"
+        ],
+        [
+          "Nubi — Carta",
+          "Vela",
+          "09:15",
+          "10:20",
+          "Pieghe modulari",
+          "Conclusa"
+        ],
+        [
+          "Vela — Tessitura",
+          "Riva",
+          "09:20",
+          "10:45",
+          "Trame a contrasto",
+          "Conclusa"
+        ],
+        [
+          "Lumo — Carta",
+          "Sole",
+          "09:25",
+          "—",
+          "Maschere geometriche",
+          "In corso"
+        ],
+        [
+          "Nubi — Argilla",
+          "Marea",
+          "09:30",
+          "10:50",
+          "Impronte in rilievo",
+          "Conclusa"
+        ]
+      ],
+      "form": [
+        "Sessione",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ]
+    }
+  ]
+}
